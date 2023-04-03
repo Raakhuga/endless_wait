@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html, body, #app, #app>div {
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+@font-face {
+  font-family: "SubwayRegular";
+  src: local("SubwayRegular"),
+   url("./fonts/subway-ticker.regular.ttf") format("truetype");
+  font-weight: normal;
+  }
+
+@font-face {
+  font-family: "DigitRegular";
+  src: local("DigitRegular"),
+    url("./fonts/01-digit.regular.ttf") format("truetype");
+  font-weight: normal;
+  }
+
+@font-face {
+  font-family: "ExepixelperfectMedium";
+  src: local("ExepixelperfectMedium"),
+    url("./fonts/exepixelperfect.medium.ttf") format("truetype");
+  font-weight: normal;
+  }
