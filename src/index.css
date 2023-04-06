@@ -42,3 +42,10 @@ html, body, #app, #app>div {
     url("./fonts/exepixelperfect.medium.ttf") format("truetype");
   font-weight: normal;
   }
+
+@font-face {
+  font-family: "LcdSolid";
+  src: local("LcdSolid"),
+    url("./fonts/LcdSolid-VPzB.ttf") format("truetype");
+  font-weight: normal;
+  }

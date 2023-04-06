@@ -47,12 +47,12 @@
 
 .container {
   position: relative;
-  font-family: "ExepixelperfectMedium";
+  font-family: "LcdSolid";
   color: green;
   display: flex;
   width: 50vh;
   height: 20vh;
-  font-size: 4vh;
+  font-size: 2vh;
 }
 
 .timeContainer {
@@ -87,19 +87,19 @@
 .countdown {
   flex: 2;
   margin: 0px 0px 0px 30px;
-  line-height: 0.5;
-  font-size: 12vh;
+  font-size: 7vh;
 }
 
 .next-train {
   flex: 1;
-  line-height: 0.75;
-  margin-top: 0px;
+  font-size: 3vh;
+  margin-top: 12px;
   margin-bottom: 0px;
 }
 
 .direction-text {
   margin-top: 0px;
+  font-size: 3vh;
 }
 
 .message {
@@ -109,7 +109,6 @@
   position: absolute;
   background-color: black;
   margin: 0px 0px 0px 0px;
-  line-height: 0.75;
-  font-size: 5vh;
+  font-size: 3vh;
   text-align: center;
 }
