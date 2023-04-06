@@ -3,6 +3,7 @@ import './App.css';
 import './fonts/subway-ticker.regular.ttf'
 import './fonts/01-digit.regular.ttf'
 import './fonts/exepixelperfect.medium.ttf'
+import "./fonts/LcdSolid-VPzB.ttf"
 
 var TimeScreen = () => {
   var date = new Date()
@@ -69,7 +70,7 @@ var App = () => {
       setShowMessage(true)
       setTimeout(()=>{
         setShowMessage(false)
-      },5000)
+      }, 5000)
     }, 20000)
     return () => clearInterval(interval)
   }, [showMessage])
