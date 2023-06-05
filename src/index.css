@@ -49,3 +49,10 @@ html, body, #app, #app>div {
     url("./fonts/LcdSolid-VPzB.ttf") format("truetype");
   font-weight: normal;
   }
+
+  @font-face {
+    font-family: "DotDigital";
+    src: local("DotDigital"),
+      url("./fonts/dot_digital-7.ttf") format("truetype");
+    font-weight: normal;
+    }

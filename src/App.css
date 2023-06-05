@@ -47,10 +47,11 @@
 
 .container {
   position: relative;
-  font-family: "LcdSolid";
-  color: green;
+  font-family: "DotDigital";
+  color: rgb(0,255,0);
+  line-height: 0.75;
   display: flex;
-  width: 50vh;
+  width: 32vh;
   height: 20vh;
   font-size: 2vh;
 }
@@ -74,7 +75,7 @@
 
 .time {
   flex: 1;
-  margin-top: 0px;
+  margin-top: 5px;
   margin-bottom: 0px;
 }
 
@@ -85,15 +86,15 @@
 }
 
 .countdown {
-  flex: 2;
+  flex: 0;
   margin: 0px 0px 0px 30px;
   font-size: 7vh;
 }
 
 .next-train {
-  flex: 1;
+  flex: 0;
   font-size: 3vh;
-  margin-top: 12px;
+  margin-top: 5px;
   margin-bottom: 0px;
 }
 

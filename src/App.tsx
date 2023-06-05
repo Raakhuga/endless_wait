@@ -4,6 +4,7 @@ import './fonts/subway-ticker.regular.ttf'
 import './fonts/01-digit.regular.ttf'
 import './fonts/exepixelperfect.medium.ttf'
 import "./fonts/LcdSolid-VPzB.ttf"
+import "./fonts/dot_digital-7.ttf"
 
 var TimeScreen = () => {
   var date = new Date()
